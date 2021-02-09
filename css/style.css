@@ -1,0 +1,561 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    letter-spacing: 1px;
+}
+      /*navbar-start here*/
+.home-sec{
+	/*background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/alone.png);*/
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/dollar.jpg); 
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.container-flex {
+	display: flex;
+	justify-content: space-around;
+	/*background-color: pink;*/
+	height: 80px;
+    align-items: center;
+  
+}
+.logo {
+	width: 25%;
+	/*background-color: aqua;*/
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	text-transform: capitalize;
+	font-weight: 600px;
+	font-size: 26px;
+	color: pink;
+}
+#nav-header{
+	/*border: 50px solid red;*/
+	background-color:#ee90ae;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+}
+.nav-links {
+	/*border: solid 100px green;*/
+   /*background-color: blue;*/
+   width: 60%;
+   display: flex;
+	justify-content: flex-end;
+	font-family: sans-serif;
+	text-transform: capitalize;
+	font-weight: 300px;
+	font-size: 22px;
+    
+}
+.nav-links ul {
+	
+ display: flex;
+/*position: fixed;*/
+}
+.nav-links ul li {
+	list-style-type: none;
+   padding: 0 10px;
+}
+.nav-links ul li a {
+
+color: blue;
+text-decoration: none;
+}
+.nav-links ul li a:hover {
+	color: aqua;
+	background-color: transparent;
+}
+.home-sec .container-flex .logo h1{
+	/*position: fixed;*/
+
+}
+.home-sec .container-flex .logo h1 span{
+	color: blue;
+	/*position: fixed;*/
+}
+
+
+      /*navbar-end*/
+     /*mainsec-start Here*/
+
+#main-sec .container-main{
+	display: flex;
+	height: auto;
+}
+#main-sec .container-main .row{
+	display:inherit;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+#main-sec .container-main .row .content-box{
+	text-align: center;
+	width: 40%;
+}
+#main-sec .container-main .row .content-box h1{
+	text-transform: uppercase;
+    font-size: 36px;
+    color: white;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+#main-sec .container-main .row .content-box h2{
+	text-transform: capitalize;
+    font-size: 42px;
+    letter-spacing: 3px;
+    margin: 0;
+    color: white;
+}
+#main-sec .container-main .row .content-box h2 span{
+	color: red;
+}
+#main-sec .container-main .row .content-box p{
+	 letter-spacing: 1px;
+    padding: 20px 0px;
+    color: white;
+}
+   
+       /* Helper Classes start here*/
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 25px;
+    border: 1px solid;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus {
+	outline: none;
+}
+.btn-primary {
+	background-color: transparent;
+}
+.btn-primary:hover{
+	background-color: pink;
+	color: red;
+	border-color: pink;
+}
+.btn-primary:focus {
+    background-color: blue;
+    color: #fff;
+    border-color: blue;
+}
+.btn-secondary {
+	background-color: pink;
+	color: red;
+	border-color: pink;
+}
+.btn-secondary:hover{
+	background-color: transparent;
+	border-color: #333;
+}
+.btn-secondary:focus {
+    background-color: blue;
+    border-color: blue;
+    color: #fff;
+}
+  /* Helper Classes of about-me*/
+.container {
+    margin: 0 auto;
+    width: 85%;
+ }
+.row {
+    display: flex;
+}
+.col {
+    display: inherit;
+    flex: 1;
+}
+.sec-sv {
+    padding: 100px 0px;
+}
+/* Side Box */
+.side-box {
+    position: fixed;
+    top: 40%;
+    left: 0%;
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    color: red;
+    font-size: 24px;
+
+}
+
+  /* Helper Classes end here*/
+
+  /* About Section Start here */
+#about-me{
+
+}
+#about-me .aboutme-content .social-icons ul {
+    padding: 20px 0px;
+    list-style-type: none;
+    display: flex;
+
+}
+#about-me .aboutme-content .social-icons ul li{
+    /*width: 40px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 1px solid aqua;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 15px;
+    font-size: 22px;
+*/
+}
+#about-me .aboutme-content h4{
+	padding: 20px 0px;
+	font-size:18px;
+}
+#about-me .aboutme-content span{
+	color: pink;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+#about-me .aboutme-content i{
+    color: red;	
+}
+/*about-me sec end here*/
+
+/*our services sec start here*/
+#our-services{
+	background-color: #ddd
+}
+#our-services .services-content{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+#our-services .services-content h2{
+	margin: 12px 0px;
+	text-transform: capitalize;
+	font-size: 28px;
+}
+
+#our-services .services-box-content{
+	border: 1px solid black;
+	text-align: center;
+	/*width: 30%;*/
+	padding: 30px;
+	margin: 15px;
+}
+#our-services .services-box-content .line { 
+    border-width: 3px;
+    border-style: solid;
+    width: 20%;
+    margin: 0 auto;
+    color: orange;
+    margin-bottom: 10px;
+}
+#our-services .services-box-content h3 { 
+    letter-spacing:1px;
+    text-transform: capitalize;
+    padding: 10px 0px;
+}
+/*#our-services .services-box-content .icon {
+	color: orange;
+	font-size: 22px;
+}
+    /**/freelancer sec start here
+#me-freelancer{
+	 background-color:red;
+}
+#me-freelancer .me-freelancer-content{
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 600px;
+	font-size: 22px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+#me-freelancer .me-freelancer-content h3{
+	padding-bottom: 18px;
+}
+#me-freelancer .me-freelancer-content .btn-radious-0{
+	border-radius: 6px;
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	padding: 12px 18px;
+}
+our clint sec start here
+#my-clint{
+   background-color: #ddd;
+}
+#my-clint .clint-content{
+	text-align: center;
+	margin: 0 auto;
+	width: 40%;
+	/*background-color: red;
+}
+#my-clint .clint-content h3{
+	font-size: 28px;
+	font-family: sans-serif;
+	text-transform: capitalize;
+	padding: 10px 0px;
+	letter-spacing: 1px;
+}
+#my-clint .clint-content .para-one{
+	padding: 16px 0px;
+}
+#my-clint .clint-content .icon-clint{
+	padding: 30px 0px;
+	margin: 30px 0px;
+	color: pink;
+	font-size: 24px;
+}
+#my-clint .clint-content .my-picture img{
+	/*width: 30px;
+	/*height: 30px;*/
+    border-radius: 60%;
+}
+#my-clint .clint-content .para-two{
+	padding: 16px 0px;
+}
+#my-clint .clint-content h6{
+	padding: 16px 0px;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+/*ourwork main sec start here*/
+
+
+/* our-work section start here */
+ 
+#our-work .container .work-content{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    /*margin-bottom: 40px;*/
+    /*margin-right: 50px;*/
+}
+#our-work .container .list{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#our-work .container .list ul li{
+    list-style-type: none; 
+}
+#our-work .container .list ul li a{
+     padding-left: 40px;
+     text-decoration: none;
+     color: #000;
+}
+#our-work .container .list ul li a span{
+    color: #fff;
+    background-color: red;
+    padding: 5px 10px;  
+    border-radius: 15px;
+
+}
+#our-work .container img{
+    height: 250px;
+    width: 350px;
+    margin: 10px;
+}
+/* hover start here */
+.box{
+    font-family: 'Roboto Slab', serif;
+    overflow: hidden;
+    position: relative;
+}
+.box:before,
+.box:after,
+.box .box-content:before,
+.box .box-content:after{
+    content: "";
+    background: linear-gradient(to right bottom,#38ef7d,#11998e);
+    width: 50%;
+    height: 50%;
+    border-radius: 0 0 200% 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s ease-in;
+}
+.box:after{
+    transform: rotateY(180deg);
+    left: auto;
+    right: 0;
+}
+.box .box-content:before{
+    transform: rotateX(180deg);
+    top: auto;
+    bottom: 0;
+}
+.box .box-content:after{
+    transform: rotateZ(180deg);
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+.box:hover:before,
+.box:hover:after,
+.box:hover .box-content:before,
+.box:hover .box-content:after{
+    border-radius: 0;
+    opacity: 0.8;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    transition: all 0.6s ease 0s;
+}
+.box:hover img{ transform: scale(1.2); }
+.box .box-content{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.box .box-content .inner-content{
+    width: 100%;
+    opacity: 0;
+    transform: translateX(-50%) translateY(50%) rotateX(-90deg);
+    transform-origin: bottom center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transition: all 0.4s ease-in
+}
+.box:hover .box-content .inner-content{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) rotateX(0);
+}
+.box .title{
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0 2px;
+}
+.box .post{
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    display: block;
+}
+.box .icon{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    transform: rotateY(90deg);
+    transition: all 0.4s ease-in;
+}
+.box:hover .icon{
+    opacity: 1;
+    transform: rotateY(0);
+}
+.box .icon li{ display: inline-block; }
+.box .icon li a{
+    color: #38ef7d;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    padding: 0 0 0 2px;
+    border-radius: 50% 0 0 50%;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+.box .icon li:nth-child(2) a{
+    padding: 0 2px 0 0;
+    border-radius: 0 50% 50% 0;
+}
+.box .icon li a:hover{
+    color: #fff;
+    background-color: #11998e;
+    box-shadow: 0 0 5px #11998e;
+}
+@media only screen and (max-width:990px){
+    .box { margin: 0 0 30px; }
+}
+/* hover end here */
+/* our-work section end here */
+       
+       /*section OUR BLOGS START HERE*/
+
+  #our-blogs .container{
+  	 width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    /*margin-right: 50px;*/
+  }    
+
+/*
+*/
+/*hover effect css her*/
+/*HOVER EFFECT ABOUT US START HERE*/
+#about-me .container .image-outer{
+	background: repeating-linear-gradient(#999,#999 10px,#555 10px,#444 20px);
+	font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+ #about-me .container .image-outer img{
+	 width: 100%;
+    height: auto;
+    transform: scale(1.3);
+    transition: all 0.3s ease 0s;
+}
+#about-me .container .image-outer img:hover{
+	opacity: 0.7;
+    transform: scale(1);
+}
+
+@media only screen and (max-width:990px){
+    .box{ margin: 0 0 30px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
